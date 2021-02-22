@@ -14,7 +14,7 @@
 //use Illuminate\Routing\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home/index');
 });
 
 
@@ -80,6 +80,8 @@ Route::get('shitu', function () {
 
 //控制器中的代碼和路由結合
 Route::get('member/info','MemberController@info');
+
+Route::any('test1','StudentController@test1');
 
 
 

@@ -14,7 +14,7 @@ class MemberController extends Controller
         //輸出默認的模板頁面
         //return view('info');
 
-        //輸出固定資料夾的模板
+        //輸出對應資料夾的模板(在view>>member資料夾>>info)
         //return view('member/info');
 
         //模板可以帶變量
